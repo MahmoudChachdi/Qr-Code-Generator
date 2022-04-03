@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+ 
+*{
+ 
+  font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-color: #e8e8e8;
+}
+
+.card {
+    margin-top: 3rem;
+ width: 70rem;
+ height: 40rem;
+ border-radius: 30px;
+ background: #6200EE;
+ box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+}
+.card .title{
+  
+  font-size: 2rem;
+  font-weight: 1000;
+  position: absolute;
+  color: #e8e8e8 ;
+
+}
+
+.input{
+      margin-right: 3rem;
+ width: 18rem;
+ height: 22rem;
+ border-radius: 30px;
+ background: #e0e0e0;
+
+}
+.output{    margin-left: 3rem;
+
+ width: 18rem;
+ height: 22rem;
+ border-radius: 30px;
+ background: #e0e0e0;
+}
+
+button {
+ color: #e8e8e8;
+ padding: 0.7em 1.7em;
+ font-size: 18px;
+ border-radius: 0.5em;
+ background: #6200EE;
+ border: 1px solid #e8e8e8;
+ transition: all .3s;
+ box-shadow: 6px 6px 12px #c5c5c5,
+             -6px -6px 12px #ffffff;
+}
+
+button:hover {
+ border: 1px solid white;
+}
+
+button:active {
+ box-shadow: 4px 4px 12px #c5c5c5,
+             -4px -4px 12px #ffffff;
+}
+form .user-details{
+padding: 1rem;
+  margin: 3rem 0 12px 0;
+   color: #e8e8e8 ;
+}
+form .user-details .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+form .input-box span.details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color:  #212121;
+}
+
+.user-details .input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  background-color: #e8e8e8;
+
+}
+
+.user-details .input-box input{
+  color: #212121;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+  border-color:  #212121;
+}
+
+.user-details .input-box label{
+ font-weight: 500;
+}
+
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .center .flex{
+      display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+   margin: 20px 0 12px 0;
+  }
